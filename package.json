@@ -1,0 +1,22 @@
+{
+  "name": "i-hate-readme",
+  "version": "1.0.0",
+  "description": "Because you hate writing READMEs, an AI will write it for you. It uses free Groq API",
+  "main": "bin/cli.js",
+  "bin": {
+    "i-hate-readme": "./bin/cli.js"
+  },
+  "keywords": [
+    "readme",
+    "cli",
+    "documentation",
+    "generator",
+    "groq",
+    "write"
+  ],
+  "author": "phmfelipe",
+  "license": "MIT",
+  "dependencies": {
+    "groq-sdk": "^0.9.0"
+  }
+}
